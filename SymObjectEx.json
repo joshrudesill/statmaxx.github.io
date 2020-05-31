@@ -1,0 +1,112 @@
+symbols = [{
+    name: "TSLA",
+    description: "Tesla Inc.",
+    mentions: {
+        day: {
+            total: 0,
+            scrapes: [
+                {time: "00:00 day/month/year",
+                 mentions: 0,
+                 source: "source"
+                },
+                {time: "00:00 day/month/year",
+                    mentions: 0,
+                    source: "source"
+                   }
+            ]
+        },
+        week: {
+            total: 0,
+            scrapes: [
+                {time: "00:00 day/month/year",
+                 mentions: 0,
+                 source: "source"
+                },
+                {time: "00:00 day/month/year",
+                    mentions: 0,
+                    source: "source"
+                   }
+            ]
+        },
+        month: {
+            total: 0,
+            scrapes: [
+                {time: "00:00 day/month/year",
+                 mentions: 0,
+                 source: "source"
+                },
+                {time: "00:00 day/month/year",
+                    mentions: 0,
+                    source: "source"
+                   }
+            ]
+        }
+    }
+},
+{
+    name: "AAPL",
+    description: "Apple Inc.",
+    mentions: {
+        day: {
+            total: 0,
+            scrapes: [
+                {time: "00:00 day/month/year",
+                 mentions: 0,
+                 source: "source"
+                },
+                {time: "00:00 day/month/year",
+                    mentions: 0,
+                    source: "source"
+                   }
+            ]
+        },
+        week: {
+            total: 0,
+            scrapes: [
+                {time: "00:00 day/month/year",
+                 mentions: 0,
+                 source: "source"
+                },
+                {time: "00:00 day/month/year",
+                    mentions: 0,
+                    source: "source"
+                   }
+            ]
+        },
+        month: {
+            total: 0,
+            scrapes: [
+                {time: "00:00 day/month/year",
+                 mentions: 0,
+                 source: "source"
+                },
+                {time: "00:00 day/month/year",
+                    mentions: 0,
+                    source: "source"
+                   }
+            ]
+        }
+    }
+}]
+
+
+/*When each day clears it will add to this class.*/
+
+
+permanentStorage = [{
+    name: "name",
+    description: "description"
+    all: {
+        total: 0,
+        scrapes: [
+            {time: "00:00 day/month/year",
+             mentions: 0,
+             source: "source"
+            },
+            {time: "00:00 day/month/year",
+                mentions: 0,
+                source: "source"
+               }
+        ]
+    }
+}]

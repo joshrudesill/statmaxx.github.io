@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 67%;
+}
+body {
+  /* DEBUGGING PURPOSES */
+  background-color: transparent;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/*All classes in red are for box positioning and content placement properties, not for content itself*/
+nav {
+  position: fixed;
+  width: 100%;
+  height: 11%;
+  z-index: 11;
+  padding: 5px;
+  background: black;
+  /* DEBUGGING PURPOSES */
+
+}
+
+header {
+  position: fixed;
+  width: 13.5%;
+  height: 7%;
+  top: 3%;
+  left: 2%;
+  text-align: center;
+  /* DEBUGGING PURPOSES
+  border-radius: 5px;
+  border: 1px solid black*/
+
+}
+
+main {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  padding-top: 2%;
+  padding-left: .1%;
+  /* DEBUGGING PURPOSES */
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 120%;
+  height: 15%;
+
+  background: black;
+  border-radius: 12px;
+  z-index: 9;
+  padding:2%;
+}
+
+
+.fontFormatter {
+  font-family: 'Jura';
+  font-size: 150%;
+  color:white;
+  text-decoration: none;
+}
+
+.logoFontFormatter {
+  font-family: 'Monoton';
+  color: gray;
+  font-size: 200%
+}
+.subtextFontFormatter {
+  font-size: 50%;
+  font-family: "Jura";
+  color:white;
+}
+
+.headerfontFormatter {
+  font-family: 'Jura';
+  font-size: 200%;
+  color:black;
+}
+
+.button {
+  font-family: 'Jura';
+  font-size: 110%;
+  color:white;
+  text-decoration: none;
+}
+.footerFont {
+  font-size: 100%;
+  font-family: "Jura";
+  color:white;
+}
+
+/* DEBUGGING PURPOSES */
+/* Note that this would be a actual image in the live site. this is just a place holder class for a name logo idea. */
+
+.mainFontFormatter {
+  font-family: "Jura";
+  font-size: 250%;
+  color: black;
+  display: inline-block;
+}
+.proFontFormatter {
+  font-family: "Jura";
+  font-size: 175%;
+  color: white;
+  display: inline-block;
+  border-radius: 15%;
+
+  padding: 0.25% 0.5%;
+  margin-left: 0.25%;
+  background: #ffb35c;
+}
+
+
+.logoFont {
+  font-family: "JugazOne";
+  font-size: 160%;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: -7px;
+  color: green;
+}
+
+.flex-containerNav {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 65%;
+  top: 6%;
+  left: 25%;
+  justify-content: space-between;
+  /* DEBUGGING PURPOSES
+  border: 1px solid black; */
+}
+
+
+
+.grayBackground {
+  background: #dbdbdb;
+}
+.green {
+  color:green;
+}
+.red {
+  color:red;
+}
+
+.hover:hover {
+  border-bottom:  1px solid green;
+}
+
+.logIn {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 40%;
+  height: 45%;
+  text-align: center;
+  border: 2px solid black;
+  padding: 1%;
+  border-radius: 5px;
+}
+input {
+  width: 45%;
+  height: 15%;
+}
+.buttonSubmit {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+
+.toolspro .mainFontFormatter {
+  font-size: 175%;
+}
